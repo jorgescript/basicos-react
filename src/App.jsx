@@ -9,7 +9,7 @@ export const App = () => {
     <>
       <h1>{contenido.titulo}</h1>
       <p>{contenido.parrafo}</p>
-      <ComponenteProps valor="Jorge" />
+      <ComponenteProps />
     </>
   );
 };

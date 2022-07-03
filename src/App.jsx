@@ -1,4 +1,5 @@
 import { ComponenteProps } from "./ComponenteProps";
+import { CounterApp } from "./CounterApp";
 
 export const App = () => {
   const contenido = {
@@ -10,6 +11,7 @@ export const App = () => {
       <h1>{contenido.titulo}</h1>
       <p>{contenido.parrafo}</p>
       <ComponenteProps />
+      <CounterApp value={10} />
     </>
   );
 };

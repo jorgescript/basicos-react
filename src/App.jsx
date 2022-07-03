@@ -1,8 +1,12 @@
 export const App = () => {
+  const contenido = {
+    titulo: "Hola mundo",
+    parrafo: "Bienvenido a Reactjs",
+  };
   return (
     <>
-      <h1>Hola mundo</h1>
-      <p>Parrafo</p>
+      <h1>{contenido.titulo}</h1>
+      <p>{contenido.parrafo}</p>
     </>
   );
 };

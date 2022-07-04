@@ -10,7 +10,7 @@ export const App = () => {
     <>
       <h1>{contenido.titulo}</h1>
       <p>{contenido.parrafo}</p>
-      <ComponenteProps />
+      <ComponenteProps valor="Jorge" />
       <CounterApp value={10} />
     </>
   );

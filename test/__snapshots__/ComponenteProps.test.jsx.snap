@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente ComponenteProps Debe hacer match con el snapshot 1`] = `
+<div>
+  <p
+    data-testid="test-title"
+  >
+    Recibi este valor por Props: 
+    Jorge
+  </p>
+</div>
+`;

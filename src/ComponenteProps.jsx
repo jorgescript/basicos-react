@@ -1,7 +1,10 @@
+import React from "react";
 import PropTypes from "prop-types";
 
 export const ComponenteProps = ({ valor }) => (
-  <p>Recibi este valor por Props: {valor}</p>
+  <>
+    <p data-testid="test-title">Recibi este valor por Props: {valor}</p>
+  </>
 );
 
 ComponenteProps.propTypes = {
